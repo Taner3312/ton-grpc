@@ -2621,6 +2621,7 @@ dependencies = [
  "base64 0.22.1",
  "bytes",
  "convert_case",
+ "dashmap",
  "futures",
  "hex",
  "pin-project",
