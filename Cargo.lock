@@ -2548,6 +2548,9 @@ version = "0.1.0"
 dependencies = [
  "itertools 0.13.0",
  "thiserror",
+ "tokio",
+ "tokio-util",
+ "tracing",
 ]
 
 [[package]]
@@ -2630,6 +2633,7 @@ dependencies = [
  "tokio",
  "tokio-stream",
  "tokio-util",
+ "ton-client-utils",
  "toner",
  "tower",
  "tracing",
